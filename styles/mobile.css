@@ -1,0 +1,15 @@
+@media screen and (max-width:588px) {
+    .navicon{
+        margin: auto;
+    }
+    .navicon>img{
+        height: 170px;
+        width: 280px;
+        
+    } 
+    h1{
+        font-size: 30px;
+        line-height: 35px;
+    } 
+      
+}
