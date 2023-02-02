@@ -41,13 +41,15 @@ h2{
 
 .Card {
     height: 500px;
-    background: #0c4f4e;
+    /* background: #0c4f4e; */
+    background-image: url(../img/Hexagon\ \(4\).svg);
     position: relative;
     display: flex;
     place-content: center;
     place-items: center;
     overflow: hidden;
     border-radius: 20px;
+    box-shadow: 5px 8px 30px #596a63;
     
   }
   
@@ -78,7 +80,8 @@ h2{
   .Card::after {
     content: '';
     position: absolute;
-    background: #0c4f4e;
+    /* background: #0c4f4e; */
+    background-image: url(../img/Hexagon\ \(4\).svg);
     inset: 5px;
     border-radius: 15px;
   }  
@@ -192,6 +195,7 @@ h2{
    }
 footer{
   background-image: url(../img/Circuit\ Board\ \(1\).svg);
+  margin-top: -5px;
 }  
 
 footer h3{
