@@ -6,6 +6,10 @@
     font-family: 'semi-title';
     src: url(../fonts/Capture\ it.ttf);
 }
+@font-face {
+  font-family: smile';
+  src: url(../fonts/PetiteSmile-51JrZ.ttf);
+}
 *{
     margin: 0;
 }
@@ -49,7 +53,8 @@ h2{
     place-items: center;
     overflow: hidden;
     border-radius: 20px;
-    box-shadow: 5px 8px 30px #596a63;
+    box-shadow: 5px 8px 30px #596a63,
+                -5px -8px 30px #596a63;
     
   }
   
