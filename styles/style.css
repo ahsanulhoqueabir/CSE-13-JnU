@@ -7,7 +7,7 @@
     src: url(../fonts/Capture\ it.ttf);
 }
 @font-face {
-  font-family: smile';
+  font-family: 'smile';
   src: url(../fonts/PetiteSmile-51JrZ.ttf);
 }
 *{
@@ -188,15 +188,18 @@ h2{
     padding-left: 1.5em;
    }
    
-   .fancy:hover .top-key {
+.fancy:hover .top-key {
     left: -2px;
     width: 0px;
    }
    
-   .fancy:hover .bottom-key-1,
+.fancy:hover .bottom-key-1,
     .fancy:hover .bottom-key-2 {
     right: 0;
     width: 0;
+   }
+   .fa-cloudsmith{
+    color: aqua;
    }
 footer{
   background-image: url(../img/Circuit\ Board\ \(1\).svg);
@@ -217,5 +220,11 @@ footer h3{
   font-size: 30px;
 }
 .fa-brands{
+  
+}
+.outline{
   color: white;
+  outline-style: solid;
+  padding: 10px;
+  border-radius: 8px;
 }
